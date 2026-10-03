@@ -35,10 +35,12 @@ body{
     font-family: "Bitcount Ink", system-ui;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
      font-family: "Inter", sans-serif;
+     margin: 0;
+     padding: 0;
 }
 
 #guia-eleitor {
@@ -56,5 +58,32 @@ body{
 }
 #container {
     height: 35vh;
-    width: 40vw;
+    width: 100vw;
+    background-color: red;
+} */
+
+/* px */
+/* viewport width
+viewport heigth */
+/* % */
+
+#container {
+    width: 20vw;
+    height: 30vh;
+}
+#container input {
+    width: 16vw;
+    height: 4vh;
+    margin-bottom: 2vh;
+    border: 2px solid rgb(211, 209, 209);
+    border-radius: 5px;
+}
+#container button{
+    width: 16vw;
+    height: 4vh;
+    background-color: #A6130A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
